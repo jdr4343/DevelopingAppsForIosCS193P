@@ -30,7 +30,7 @@ class ViewController: UIViewController {
     
     @IBAction func touchCard(_ sender: UIButton) {
         flipCount += 1
-        if let cardNumber = cardBtn.index(of: sender) {
+        if let cardNumber = cardBtn.firstIndex(of: sender) {
             flipCard(withEmoji: emojiChoices[cardNumber], on: sender)
         } else {
             print("chosen card was not caedButtons")
@@ -49,15 +49,7 @@ class ViewController: UIViewController {
         }
     }
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
+   
     
     override func viewDidLoad() {
         super.viewDidLoad()

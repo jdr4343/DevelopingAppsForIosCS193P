@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina6_0" orientation="portrait" appearance="dark"/>
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -171,8 +171,8 @@
                                     <action selector="touchCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5Lx-9g-XyC"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Flips: 0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="39X-OH-WGf">
-                                <rect key="frame" x="155" y="44" width="117" height="24"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Flips: 0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="39X-OH-WGf">
+                                <rect key="frame" x="163.66666666666666" y="44" width="62.666666666666657" height="24"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <color key="textColor" red="0.31130400000000003" green="1" blue="0.56811599999999995" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
@@ -191,6 +191,7 @@
                             <constraint firstItem="5Pe-Fg-4jv" firstAttribute="top" secondItem="qaA-5G-LM4" secondAttribute="bottom" constant="20" id="HYO-ml-FzS"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="PrP-VZ-mzw" secondAttribute="bottom" constant="20" id="IQR-R9-AdG"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="cVm-t4-UIg" secondAttribute="bottom" constant="20" id="KQD-Zd-9CC"/>
+                            <constraint firstItem="39X-OH-WGf" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="PXY-Oo-zGR"/>
                             <constraint firstItem="hpY-JY-Eby" firstAttribute="top" secondItem="x88-cx-bwO" secondAttribute="bottom" constant="20" id="Pmh-9t-Ob8"/>
                             <constraint firstItem="4DG-iD-I9H" firstAttribute="top" secondItem="hpY-JY-Eby" secondAttribute="bottom" constant="20" id="Qbv-Rw-eBa"/>
                             <constraint firstItem="muW-sY-xEP" firstAttribute="top" secondItem="uBs-C7-eKo" secondAttribute="bottom" constant="20" id="T4H-3A-Sk5"/>
