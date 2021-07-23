@@ -13,6 +13,18 @@ class ViewController: UIViewController {
    lazy var game = Concentration(numberOfPairsOfCards: (cardBtn.count + 1) / 2)//과제에선 이렇게 하면됩니다.
     
     
+    @IBAction func newGame(_ sender: UIButton) {
+        flipCount = 0
+        reset()
+    }
+    func reset() {
+        for card in cardBtn.indices {
+            game.cards[card].isFaceUp = false
+            game.cards[card].isMatched = false
+            
+        }
+        updateViewFromModel()
+    }
     
     //apped flipCount you press the card, it makes flipCount += 1.
     var flipCount = 0 {
