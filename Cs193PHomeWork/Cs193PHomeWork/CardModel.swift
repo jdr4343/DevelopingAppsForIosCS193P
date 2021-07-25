@@ -8,7 +8,7 @@
 import Foundation
 
 struct Card {
-    //카드가 뒤집혔을때 쌍을 이루었을떄 불값 전달
+    //카드가 뒤집혔을때 쌍을 이루었을때 불값 전달
     var isFaceUp = false
     var isMatched = false
     var identifier: Int
