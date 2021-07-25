@@ -10,8 +10,12 @@ import UIKit
 class ViewController: UIViewController {
 //Put all method and instance variables within {}.
 
-   lazy var game = Concentration(numberOfPairsOfCards: (cardBtn.count + 1) / 2)//과제에선 이렇게 하면됩니다.
-    
+   lazy var game = Concentration(numberOfPairsOfCards: numberOfPairsCards)//과제에선 이렇게 하면됩니다.
+    var numberOfPairsCards: Int {
+        get { //read Only
+            return (cardBtn.count + 1 / 2)
+        }
+    }
     
     @IBAction func newGame(_ sender: UIButton) {
         flipCount = 0
