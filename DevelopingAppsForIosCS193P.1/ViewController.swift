@@ -16,13 +16,15 @@ class ViewController: UIViewController {
     @IBAction func newGame(_ sender: UIButton) {
         flipCount = 0
         reset()
+        
     }
     func reset() {
         for card in cardBtn.indices {
             game.cards[card].isFaceUp = false
             game.cards[card].isMatched = false
-            
+           
         }
+        game.cards.shuffle()
         updateViewFromModel()
     }
     
@@ -68,7 +70,7 @@ class ViewController: UIViewController {
             }
         }
     }
-    var emojiChoices = ["👻","👹","👿","👽","☠️","🤡"]
+    var emojiChoices = ["👻","👹","👿","👽","☠️","🤡","🐯","🐣","🐥"]
     
     var emoji: [Int:String] = [:]
     
