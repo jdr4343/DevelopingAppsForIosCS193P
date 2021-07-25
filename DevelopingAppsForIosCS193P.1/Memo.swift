@@ -48,3 +48,23 @@ import Foundation
  6) open - (for frameworks only) public and objects outside my framework can subclass this
  
  
+ 
+ 
+ 
+ 
+ Extensions
+ 
+ *Extnding existing data structures
+ you can add methods/properties to a class/struct/enum(even if you don't have the source).
+ 
+ *There are some restrictions
+ you can't re-implement methods or properties that already there(only add new ones)
+ the properties you add can have no storeage associated with them (computed only)
+ 
+ *This feature is easily abused
+ It should be used to add clarity to readability not obfuscation!
+ Don't use it as a substitute for good object-oriented design technique
+ Best uesd (at least for beginners) for very small, well-contained helper functions
+ Can actually be used well to organize code but requires architectural commitment
+ When in doubt (for now). don't do it
+ */
