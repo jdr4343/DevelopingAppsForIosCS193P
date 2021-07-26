@@ -8,7 +8,7 @@
 import Foundation
 /*
  Computed Properties
- 
+ //계산 속성
  why compute the value of a property?
  Lots of times a "Property" is "derived" from other state.
  For example, in Concentration, we can derive this var easily from looking at the cards ...
@@ -27,7 +27,7 @@ import Foundation
  
  
  Access Control
- 
+ //파일을 비밀로 하고 싶을떄
  Protexting our internal implementations
  Likely most of you have only worked on relatively small projects
  Inside those projects, any object can pretty much call any function in any other object
@@ -53,7 +53,7 @@ import Foundation
  
  
  Extensions
- 
+ //확장자
  *Extnding existing data structures
  you can add methods/properties to a class/struct/enum(even if you don't have the source).
  
